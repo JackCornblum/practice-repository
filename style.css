@@ -1,10 +1,36 @@
-body {
-    background: #9ac0e6;
+html {
+    height: 100%;
 }
 
-.container {
+body {
+    background: #9ac0e6;
+    height: 100%;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#container {
     text-align: center;
-    margin-bottom: 50px;
+    height: 100%;
+}
+
+#buttons {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn {
+    text-align: justify;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
 }
 
 .column {
@@ -57,4 +83,41 @@ body {
 
 #about {
     text-align: justify;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.content-footer {
+    text-align: center;
+    color:#aaa;
+}
+
+.social > li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#container #middle {
+    height: 90%;
+}
+
+
+#container .content-footer {
+    height: 10%;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin: 50px 0;
+    padding: 20px 0;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+div > #footer-p {
+    color: #101111;
 }
