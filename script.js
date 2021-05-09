@@ -2,14 +2,14 @@ const h2 = document.createElement('h2');
 h2.textContent = "This content added by JavaScript";
 
 // get the modal
-var modal = document.getElementById("modal1");
+const modal = document.getElementById("modal1");
 
-var modalTwo = document.getElementById("modal2");
+const modalTwo = document.getElementById("modal2");
 
-var btn1 = document.getElementById("btnOne");
+const btn1 = document.getElementById("btnOne");
 
 
-var span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("close")[0];
 
 //btn.onclick = function() {
   //  modal.style.display = "block";
@@ -41,3 +41,6 @@ window.onclick = function(e) {
         modalTwo.style.display = "none";
     }
 }
+
+const header = document.getElementById('h2');
+h2.textContent = "Some Random Images and Such";
